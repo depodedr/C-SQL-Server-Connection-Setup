@@ -54,7 +54,7 @@ int main()
 
 	switch (SQLDriverConnectW(sqlConnHandle,
 		NULL,
-		(SQLWCHAR*)L"DRIVER={SQL Server}; SERVER=localhost, 1433; Database=master; UID=sa; PWD=ATSAutomation1298;",
+		(SQLWCHAR*)L"DRIVER={SQL Server}; SERVER=localhost, 1433; Database=master; UID=sa; PWD=;",
 		SQL_NTS,
 		retconstring,
 		1024,
